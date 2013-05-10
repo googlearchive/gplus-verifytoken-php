@@ -97,14 +97,6 @@ var helper = (function() {
           console.log(result);
           $('#tokenResult').html('Token Verification Result:<br/>');
           $('#tokenResult').append(JSON.stringify(result, undefined, 2));
-//          for (var field in result) {
-//            var section = '{<br/>';
-//            for (var piece in result[field]) {
-//              section += '   ' + piece + ': ' + result[field][piece] + '<br/>';
-//            }
-//            section += ' }';
-//            $('#tokenResult').append(' ' + field + ': ' + section + '<br/>');
-//          }
         },
         processData: false,
       });
