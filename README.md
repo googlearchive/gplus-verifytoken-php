@@ -11,7 +11,7 @@ ID tokens and access tokens are sensitive and can be misused if intercepted. You
 The following are common situations where you might send tokens to your server:
 
 * Sending ID tokens with requests that need to be authenticated. For example, if you need to pass data to your server and you want to ensure that particular data came from a specific user.
-* Sending client-side access tokens to the server so that the server an make requests to the Google APIs and when the one-time-code flow is not available. For example, if your iOS app has a back-end server that needs to request data from the APIs and then background process it on behalf of the client.
+* Sending client-side access tokens to the server so that the server can make requests to the Google APIs and when the one-time-code flow is not available. For example, if your iOS app has a back-end server that needs to request data from the APIs and then background process it on behalf of the client.
 
 ## When to verify tokens
 
@@ -46,9 +46,9 @@ JavaScript origins:
           * In the **Authorized JavaScript Origins** field, add the
               first of the following URLs for development. The last example is of a production URL.
               * `http://localhost:4567`
-              * `https://mysite.example.com`
-
+              * `https://mysite.example.com` 
           * Click the **Create client ID** button.
+
 1.  In the [API Access pane](https://code.google.com/apis/console/#:access),
     locate the section **Client ID for web applications** and note or copy
     the **Client ID** and **Client secret** that you will need later to
