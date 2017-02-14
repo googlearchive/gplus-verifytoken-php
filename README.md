@@ -1,3 +1,8 @@
+# Project status #
+![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
+
+This project is no longer actively maintained, and remains here as an archive of this work.
+
 # Verifying Google+ Tokens in PHP
 
 This sample demonstrates how to verify that the ID tokens and access tokens that you receive on your server are valid. This process is important to perform when your app must send tokens to your server but  is unable to use the one-time-code flow for securely getting tokens for your server.
